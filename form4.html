@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <label for="food-field">pizza, pesce o carne?</label>
+        <select id="food-field">
+          <option>pizza</option>
+          <option>pesce</option>
+          <option>carne</option>
+        </select>
+      </div>
+      <h1>Iscriviti alla nostra newsletter!</h1>
+    </header>
+    <main>
+      <form onsubmit="alert('form inviato!')">
+        <div>
+          <label for="name-field">Inserisci la tua email</label>
+          <input type="text" id="name-field" placeholder="Mario Rossi" />
+        </div>
+        <div>
+          <label for="email-field">Inserisci la tua email</label>
+          <input type="text" id="email-field" placeholder="Mario@Rossi.it" />
+        </div>
+        <div>
+          <label for="number-field">Inserisci la tua email</label>
+          <input type="tel" id="number-field" placeholder="323666****" />
+        </div>
+        <div>
+          <label for="number-field">Inserisci la tua email</label>
+          <textarea
+            id="bio-field"
+            required-placeholder="inserisci un testo"
+            rows="5"
+          />
+        </div>
+        <button>Registrati!</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
